@@ -1,0 +1,12 @@
+{
+  "InsuranceIntentChange_TEST_0": "变更车辆信息",
+  "MedicalMRC_TEST_69": "住宅火灾、汽车、燃气加热器、炉子、热水器、燃木或木炭炉及煤油炉的不恰当排气",
+  "InsuranceMRC_TEST_273": "每年于合同生效日对应日按以下约定的金额发放保单持续奖励并按照本保险条款“7.4保单账户价值”的约定进入保单账户:",
+  "MedicalNER_TEST_1": [
+    "单发性单侧鼻息肉",
+    "双侧鼻息肉"
+  ],
+  "FinancialNLI_TEST_142": "无关",
+  "FinancialSimilarity_TEST_0": "相似",
+  "FinancialClassification_TEST_399": "停牌"
+}
