@@ -50,7 +50,7 @@ if arg_dict["split_dataset"]:
     random.shuffle(train_data)
     write2json(train_data[:-EVAL_NUM], os.path.join(arg_dict["data_dir"], "{}_train.json".format(dataset_name)), "train data")
     write2json(train_data[-EVAL_NUM:], os.path.join(arg_dict["data_dir"], "{}_dev.json".format(dataset_name)), "dev data")
-    test_data = load_json(os.path.join(arg_dict["data_dir"], "test_data_A.json"))
+    test_data = load_json(os.path.join(arg_dict["data_dir"], "test_data_B.json"))
     test_data = instruction_format(test_data)
     write2json(test_data, os.path.join(arg_dict["data_dir"], "{}_test.json".format(dataset_name)), "test data")
 
